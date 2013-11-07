@@ -11,12 +11,95 @@ $custom-font-path: "fonts/";
        url('#{$custom-font-path}itcavantgardestd-bk-webfont.svg') format('svg');
 }
 
-$brand-primary:         #d83552;
+@font-face {
+  font-family: 'Arwen';
+  src: url('#{$custom-font-path}ARWEN.otf');
+  src: url('#{$custom-font-path}ARWEN.otf?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}ARWEN.woff') format('woff'),
+       url('#{$custom-font-path}ARWEN.ttf') format('truetype'),
+       url('#{$custom-font-path}ARWEN.svg') format('svg');
+}
 
-$font-family-sans-serif:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Century School Book", Georgia, "Times New Roman", Times, serif;
+@font-face {
+  font-family: "Matchbook";
+  src: url('#{$custom-font-path}Matchbook.otf');
+  src: url('#{$custom-font-path}Matchbook.otf?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}Matchbook.woff') format('woff'),
+       url('#{$custom-font-path}Matchbook.ttf') format('truetype'),
+       url('#{$custom-font-path}Matchbook.svg') format('svg');
+}
+
+@font-face {
+  font-family: "Matchbook-Serif";
+  src: url('#{$custom-font-path}Matchbook-Serif.otf');
+  src: url('#{$custom-font-path}Matchbook-Serif.otf?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}Matchbook-Serif.woff') format('woff'),
+       url('#{$custom-font-path}Matchbook-Serif.ttf') format('truetype'),
+       url('#{$custom-font-path}Matchbook-Serif.svg') format('svg');
+}
+
+$brand-primary:         #ea7765;
+
+$font-family-sans-serif:  "Matchbook", "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Matchbook-Serif", Georgia, "Times New Roman", Times, serif;
+
+$font-size-base:          36px;
+$line-height-base:        1.028571429; // 20/14
+
+$navbar-default-toggle-hover-bg:           lighten(#E87767, 25%);
+$navbar-default-toggle-icon-bar-bg:        #000;
+$navbar-default-toggle-border-color:       #000;
+
+$navbar-default-brand-hover-color:         #FFF;
+
+$navbar-default-link-hover-color:          #FFF;
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+
+$screen-xxs:                  320px;
+$screen-mini:               $screen-xxs;
+
+$screen-xs:                  480px;
+$screen-phone:               $screen-xs;
+
+// Small screen / tablet
+$screen-sm:                  768px;
+$screen-tablet:              $screen-sm;
+
+// Medium screen / desktop
+$screen-md:                  992px;
+$screen-desktop:             $screen-md;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px;
+$screen-lg-desktop:          $screen-lg;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xxs-max:              ($screen-xs - 1);
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
 
 @import 'sass-bootstrap/lib/bootstrap';
+
+@media (max-width: $screen-xs-max) {
+// Offsets
+  .col-xs-offset-0  { margin-left: 0; }
+  .col-xs-offset-1  { margin-left: percentage((1 / $grid-columns)); }
+  .col-xs-offset-2  { margin-left: percentage((2 / $grid-columns)); }
+  .col-xs-offset-3  { margin-left: percentage((3 / $grid-columns)); }
+  .col-xs-offset-4  { margin-left: percentage((4 / $grid-columns)); }
+  .col-xs-offset-5  { margin-left: percentage((5 / $grid-columns)); }
+  .col-xs-offset-6  { margin-left: percentage((6 / $grid-columns)); }
+  .col-xs-offset-7  { margin-left: percentage((7 / $grid-columns)); }
+  .col-xs-offset-8  { margin-left: percentage((8 / $grid-columns)); }
+  .col-xs-offset-9  { margin-left: percentage((9 / $grid-columns)); }
+  .col-xs-offset-10 { margin-left: percentage((10/ $grid-columns)); }
+  .col-xs-offset-11 { margin-left: percentage((11/ $grid-columns)); }
+}
 
 .browsehappy {
     margin: 0.2em 0;
@@ -27,8 +110,17 @@ $font-family-serif:       "Century School Book", Georgia, "Times New Roman", Tim
 
 /* Space out content a bit */
 body {
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 70px;
+    //background-color: #B1C6BF;
+    //@include gradient-radial(#B1C6BF, #B1C6C0);
+    background: url('/images/skyline-los-angeles.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body > .container {
+    background-color: #FFF;
+    padding-top: 15px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -39,17 +131,93 @@ body {
     padding-right: 15px;
 }
 
+@include responsive-invisibility('.visible-xxs');
+@media (max-width: $screen-xxs-max) {
+  @include responsive-visibility('.visible-xxs');
+}
+
+@media (min-width: $screen-xs) and (max-width: $screen-xs-max) {
+   @include responsive-visibility('.visible-xxs.visible-xs');
+}
+
+// @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+//   @include responsive-visibility('.visible-xxs.visible-sm');
+// }
+
+
+// @media (min-width: $screen-md) and (max-width: $screen-md-max) {
+//   @include responsive-visibility('.visible-xxs.visible-md');
+// }
+
+
+// @media (min-width: $screen-lg) {
+//   @include responsive-visibility('.visible-xxs.visible-lg');
+// }
+
+section {
+  @include make-row();
+}
+article {
+  @include make-xs-column(8);
+}
+aside {
+  @include make-xs-column(4);
+}
+
+.resume-header {
+    @include make-xs-column(6);
+    @include make-sm-column(4);
+    @media (max-width: $screen-xs-max) {
+        position: relative;
+        left: 30px;
+    }
+}
+
+.resume-content {
+    @include make-xs-column(12);
+}
+
+.video-content {
+    @include make-xs-column(12);
+}
+
 /* Custom page header */
 .header {
     border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #E87767;
+    border-color: darken(#E87767, 10%);
+    @include gradient-directional(#E87767, darken(#E87767, 10%), 0deg);
+    .container {
+        //background-color: #E87767;
+    }
+    .navbar-brand {
+        color: #000;
+    }
+    .navbar-nav > li > a {
+        color: #000;
+    }
 }
 
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 40px;
+    line-height: 20px;
     padding-bottom: 19px;
+}
+
+h1 {
+    font-family: "Arwen";
+    text-transform: uppercase;
+    font-size: 41px;
 }
 
 /* Custom page footer */
@@ -61,6 +229,96 @@ body {
 
 .container-narrow > hr {
     margin: 30px 0;
+}
+
+button.video-thumbnail {
+    position: relative;
+    background: none;
+    border: none;
+}
+
+.video-thumbnail div.play-button {
+   position: absolute;
+   display: block;
+   background: url(/images/play-btn.png);
+   height: 50px;
+   width: 50px;
+   top: 43%;
+   left: 43%;
+}
+
+.filmstrip {
+    position: absolute;
+    display: block;
+    background: url(/images/filmstrip-214.png) repeat-y;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.filmstrip-holder {
+    position: relative;
+    @media (min-width: $screen-sm) {
+        @include rotate(4deg);
+    }
+    img {
+        border-top: 5px solid #000;
+        border-bottom: 5px solid #000;
+        &:first-child {
+            border-top: 10px solid #000;
+        }
+        &:last-child {
+            border-bottom: 10px solid #000;
+        }
+    }
+}
+
+.filmstrip-holder2 {
+    position: relative;
+    @media (min-width: $screen-sm) {
+        @include rotate(-7deg);
+        top: -50px;
+    }
+    img {
+        border-top: 5px solid #000;
+        border-bottom: 5px solid #000;
+        &:first-child {
+            border-top: 10px solid #000;
+        }
+        &:last-child {
+            border-bottom: 10px solid #000;
+        }
+    }
+}
+
+.photograph {
+    padding: 7px;
+    border: 2px solid darken($gray-lighter, 5%);
+    box-shadow: 3px 3px 7px $gray;
+    @include rotate(-5deg);
+}
+
+.photograph2 {
+    padding: 7px;
+    margin-top: 10px;
+    background: #FFF;
+    border: 2px solid darken($gray-lighter, 5%);
+    // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
+    box-shadow: 3px 3px 7px $gray;
+    @include rotate(14deg);
+}
+
+.photograph3 {
+    padding: 7px;
+    background: #FFF;
+    border: 2px solid darken($gray-lighter, 5%);
+    // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
+    box-shadow: 3px 3px 7px $gray;
+    @include rotate(-5deg);
+}
+
+.navbar-default .navbar-toggle {
+    background-color: lighten(#E87767, 15%);
 }
 
 /* Main marketing message and sign up button */
@@ -88,6 +346,9 @@ body {
     .container {
         max-width: 735px;
     }
+    body > .container {
+        @include box-shadow(3px 3px 10px #111);
+    }
 
     /* Remove the padding we set earlier */
     .header,
@@ -108,6 +369,19 @@ body {
 
 .no-top-margin {
     margin-top: 0;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.neg-bottom-margin {
+    margin-bottom: -15px;
+}
+
+.reduce-bottom-margin-to-10 {
+    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .add-bottom-padding {
     padding-bottom: 20px;

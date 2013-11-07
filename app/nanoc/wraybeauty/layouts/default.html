@@ -35,6 +35,10 @@
         <link rel="stylesheet" type="text/css" href="<%= @item[:level] %>styles/main.css" />
         <!-- endbuild -->
 
+        <!-- build:css <%= @item[:level] %>styles/magnific-popup.css -->
+        <link rel="stylesheet" type="text/css" href="<%= @item[:level] %>styles/magnific-popup.css" />
+        <!-- endbuild -->
+
 
         <!-- ************************************************** -->
         <!-- JavaScript -->
@@ -55,7 +59,7 @@
         <!-- 16x16 -->
         <link rel="shortcut icon" href="<%= @item[:level] %>favicon.ico">
         <!-- 32x32 -->
-        <!-- <link rel="shortcut icon" href="<%= @item[:level] %>images/favicon.png"> -->
+        <link rel="shortcut icon" href="<%= @item[:level] %>images/favicon.png">
 
         <!-- iOS apple-touch-icons -->
         <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @item[:level] %>images/touch/apple-touch-icon-144x144-precomposed.png"> -->
@@ -80,16 +84,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">WrayBeauty</a>
+            <a class="navbar-brand" href="/"><%= @site.config[:company] %></a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><%= link_to_unless_current_active('Home', '/') %></li>
-              <li><%= link_to_unless_current_active('Wedding', '/wedding-makeup/') %></li>
-              <li><%= link_to_unless_current_active('Headshots', '/headshots-makeup/') %></li>
-              <li><%= link_to_unless_current_active('Other Services', '/other-services-makeup/') %></li>
-              <li><%= link_to_unless_current_active('About', '/about-makeup-artist/') %></li>
+              <li><%= link_to_unless_current_active('Welcome', '/') %></li>
+              <li><%= link_to_unless_current_active('About Elissa', '/about-elissa-aron/') %></li>
+              <li><%= link_to_unless_current_active('Resume', '/resume-elissa-aron/') %></li>
+              <li><%= link_to_unless_current_active('Videos', '/videos-elissa-aron/') %></li>
+              <li><%= link_to_unless_current_active('Photos', '/photos-elissa-aron/') %></li>
+              <!-- <li><%= link_to_unless_current_active('News', '/news-elissa-aron/') %></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -108,21 +113,38 @@
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-1">
+                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-elissa-aron.jpg" alt="Elissa Aron Logo" /></a>
+                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-ATB.jpg" alt="ATB Logo" /></a>
                 </div>
-                <div class="col-sm-8">
-                    <h3 id="contact">Contact</h3>
-                    <p class="vcard">
-                      <span class="email">
-                        <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
-                      </span>
-                      <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
-                      <span class="adr">
-                        <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
-                      </span>
-                    </p>
+                <!-- <div class="col-xs-6"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-ATB.jpg" alt="ATB Logo" /></a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="row" style="text-align: center;"> -->
+                <div class="col-xs-12 col-sm-6 text-center">
+                    <h3 id="contact" class="no-top-margin reduce-bottom-margin-to-10">Contact</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                          <h4 class="no-top-margin reduce-bottom-margin-to-10">
+                          <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span>
+                          </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
+                              <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row add-bottom-padding">
+                        <div class="col-xs-12">
+                          <span class="adr">
+                            <span class="locality"><strong><%= @site.config[:city] %></strong></span>, <span class="country-name"><strong><%= @site.config[:country] %></strong></span>
+                          </span>
+                        </div>
+                    </div>
                 </div>
             </div>
           </div>
@@ -165,6 +187,7 @@
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/scrollspy.js"></script>
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/collapse.js"></script>
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/tab.js"></script>
+        <script src="<%= @item[:level] %>scripts/jquery.magnific-popup.js"></script>
         <!-- endbuild -->
 </body>
 </html>

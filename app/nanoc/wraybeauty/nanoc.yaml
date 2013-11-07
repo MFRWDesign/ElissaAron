@@ -76,17 +76,19 @@ watcher:
   notify_on_compilation_success: true
   notify_on_compilation_failure: true
 
-company: 'WrayBeauty'
+company: 'Elissa Aron'
 author: 'MFRWDesign'
-phone: '+1-646-397-1853'
-phonelink: '+16463971853'
-city: 'Jersey City, NJ'
+phone: '+1-954-648-4040'
+phonelink: '+19546484040'
+city: 'Los Angeles, CA'
 country: 'United States'
-email: 'info@wraybeauty.com'
-twitter: 'wraybeauty'
-rssurl: 'http://wraybeauty.com/index.xml'
-slogan: 'MAKEUP ARTIST'
-message: 'Perfect Every Time.'
+email: 'ElissaAron@hotmail.com'
+twitter: 'ElissaAron'
+rssurl: 'http://ElissaAron.com/index.xml'
+slogan: 'Actor and Singer'
+message: 'Thanks for visiting.'
+aboutme: 'ElissaAron'
+imdbme: 'ElissaAron'
 
 sec1: 'Products'
 sec1url: 'products'
