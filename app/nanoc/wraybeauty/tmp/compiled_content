@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"Û+<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI"í.<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -108,7 +108,7 @@
 
         <div class="container">
           <section>
-  <article>
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
     <p>Welcome and thanks for visiting! Elissa is a Los Angeles based actor and singer with experience on the stage and on the screen.</p>
@@ -121,13 +121,26 @@
     </strong>
     <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
   </article>
-  <aside class="filmstrip-holder2">
-    <img class="img-responsive" src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img class="img-responsive" src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img class="img-responsive" src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive" src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+
+
+  <aside class="filmstrip-holder">
+    <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <div class="filmstrip-holder2">
+        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+<!--     <img class="visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
 </section>
         </div>
@@ -213,8 +226,8 @@
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"÷<section>
-  <article>
+;T:rawI"©	<section>
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
     <p>Welcome and thanks for visiting! Elissa is a Los Angeles based actor and singer with experience on the stage and on the screen.</p>
@@ -227,16 +240,29 @@
     </strong>
     <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
   </article>
-  <aside class="filmstrip-holder2">
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+
+
+  <aside class="filmstrip-holder">
+    <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+    <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <div class="filmstrip-holder2">
+        <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+        <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+<!--     <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
-</section>;T:preI"u<section>
-  <article>
+</section>;T:preI"‡<section>
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
     <p>Welcome and thanks for visiting! Elissa is a Los Angeles based actor and singer with experience on the stage and on the screen.</p>
@@ -249,13 +275,26 @@
     </strong>
     <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
   </article>
-  <aside class="filmstrip-holder2">
-    <img class="img-responsive" src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img class="img-responsive" src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img class="img-responsive" src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive" src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+
+
+  <aside class="filmstrip-holder">
+    <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <div class="filmstrip-holder2">
+        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+<!--     <img class="visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
 </section>;T:	post@
 I"/wedding-makeup/;T{;{	;I"+<!doctype html>
@@ -1735,7 +1774,7 @@ I"=<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;@(I"/about-elissa-aron/;T{;{	;I"z/<!doctype html>
+</div>;T;@(I"/about-elissa-aron/;T{;{	;I"?2<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1845,7 +1884,7 @@ I"=<div class="row">
 
         <div class="container">
           <section>
-  <article class="content-main">
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
     <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
@@ -1853,20 +1892,28 @@ I"=<div class="row">
     <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
-    <ul>
-      <li><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></li>
-      <li><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></li>
-    </ul>
+    <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
+    <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
   <aside class="filmstrip-holder">
-    <img class="img-responsive" src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive" src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive" src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="img-responsive visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+    <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <div class="filmstrip-holder2">
+      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
 </section>
         </div>
@@ -1952,8 +1999,8 @@ I"=<div class="row">
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"A	<section>
-  <article class="content-main">
+;T;	I"}<section>
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
     <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
@@ -1961,24 +2008,32 @@ I"=<div class="row">
     <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
-    <ul>
-      <li><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></li>
-      <li><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></li>
-    </ul>
+    <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
+    <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
   <aside class="filmstrip-holder">
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="img-responsive visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+    <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="<%= @item[:level] %>images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+    <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <div class="filmstrip-holder2">
+      <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img src="<%= @item[:level] %>images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+      <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
 </section>;T;
-I"¹<section>
-  <article class="content-main">
+I"~<section>
+  <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
     <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
@@ -1986,20 +2041,28 @@ I"¹<section>
     <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
-    <ul>
-      <li><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></li>
-      <li><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></li>
-    </ul>
+    <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
+    <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
   <aside class="filmstrip-holder">
-    <img class="img-responsive" src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive" src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive" src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="img-responsive visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip visible-sm visible-md visible-lg"></div>
+    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+    <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <div class="filmstrip-holder2">
+      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
+      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
+    <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
 </section>;T;@.I"/resume-elissa-aron/;T{;{	;I"…9<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->

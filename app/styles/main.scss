@@ -247,21 +247,38 @@ button.video-thumbnail {
    left: 43%;
 }
 
-.filmstrip {
+.filmstrip-sides {
     position: absolute;
     display: block;
-    background: url(/images/filmstrip-214.png) repeat-y;
+    background: url(/images/filmstrip-90.png) repeat-y;
     height: 100%;
     width: 100%;
-    top: 0;
+    top: 0px;
+    width: 90px;
+    @media (min-width: $screen-xs) {
+      width: 150px;
+      background: url(/images/filmstrip-150.png) repeat-y;
+    }
+    @media (min-width: $screen-sm) {
+      width: 214px;
+      background: url(/images/filmstrip-214.png) repeat-y;
+    }
+    @include box-shadow(1px 1px 2px #000, -1px -1px 2px #000);
 }
 
+aside.filmstrip-holder {
+  width: auto;
+  max-width: 100%;
+}
+
+
 .filmstrip-holder {
-    position: relative;
-    @media (min-width: $screen-sm) {
-        @include rotate(4deg);
-    }
-    img {
+    overflow: hidden;
+    position: absolute;
+    overflow: none;
+    img, div > img {
+        width: 90px;
+        @include img-responsive;
         border-top: 5px solid #000;
         border-bottom: 5px solid #000;
         &:first-child {
@@ -270,14 +287,32 @@ button.video-thumbnail {
         &:last-child {
             border-bottom: 10px solid #000;
         }
+        position: relative;
+        top: 0px;
+    }
+    @media (min-width: $screen-xs) {
+        top: -50px;
+        @include rotate(-3deg);
+        img, div > img {
+          width: 150px;
+        }
+    }
+    @media (min-width: $screen-sm) {
+        @include rotate(-7deg);
+        img, div > img {
+          width: 214px;
+        }
     }
 }
 
 .filmstrip-holder2 {
+  position: absolute;
+}
+
+.filmstrip-holder3 {
     position: relative;
     @media (min-width: $screen-sm) {
-        @include rotate(-7deg);
-        top: -50px;
+        @include rotate(4deg);
     }
     img {
         border-top: 5px solid #000;

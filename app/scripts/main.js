@@ -1,8 +1,53 @@
-console.log('\'Allo \'Allo!');
-
 !function ($) {
   // Handler for .ready() called
   $(function(){
+
+    // filmstrip holder, pictures, and sides
+    var $filmstripHolder = $('.filmstrip-holder'),
+      $filmstripHolder2 = $('.filmstrip-holder2'),
+      $filmstripPhotos = $('.filmstrip-holder img'),
+      $filmstripSides = $('.filmstrip-sides'),
+      filmstripHeight = $filmstripHolder.height(),
+      filmstripSpeed = 50000,
+      filmstripEasing = 'linear',
+      filmstripTimeout;
+
+    $filmstripHolder2.css('top', -filmstripHeight);
+
+    // animate filmstrip
+    function runFilmstrip() {
+
+
+        $.each($filmstripPhotos, function ( index, value ) {
+          $(value)
+            .animate({
+                'top': filmstripHeight
+              }, {
+                duration: filmstripSpeed,
+                easing: filmstripEasing,
+                complete: function() {
+                   $(this).css({'top': 0 });
+                }
+              })
+        });
+
+        $filmstripSides
+          .animate({
+            'top': filmstripHeight
+          }, {
+            duration: filmstripSpeed,
+            easing: filmstripEasing,
+            complete: function() {
+              $(this).css({'top': '0'});
+            }
+          });
+
+        clearTimeout(filmstripTimeout);
+        filmstripTimeout = setTimeout(runFilmstrip, filmstripSpeed);
+    }
+    runFilmstrip();
+
+    //initialization for magnificPopup
     $('.video-clips1').magnificPopup({
       items: [
         {
@@ -21,7 +66,7 @@ console.log('\'Allo \'Allo!');
       gallery: {
         enabled: true
       },
-      type: 'image' // this is default type
+      type: 'image'
     });
     $('.video-clips2').magnificPopup({
       items: [
@@ -41,7 +86,7 @@ console.log('\'Allo \'Allo!');
       gallery: {
         enabled: true
       },
-      type: 'image' // this is default type
+      type: 'image'
     });
     $('.video-clips3').magnificPopup({
       items: [
@@ -61,7 +106,7 @@ console.log('\'Allo \'Allo!');
       gallery: {
         enabled: true
       },
-      type: 'image' // this is default type
+      type: 'image'
     });
     $('.photos-headshots').magnificPopup({
       items: [
@@ -150,7 +195,7 @@ console.log('\'Allo \'Allo!');
       gallery: {
         enabled: true
       },
-      type: 'image' // this is default type
+      type: 'image'
     });
   });
 }(window.jQuery);
