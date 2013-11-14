@@ -11,20 +11,44 @@
       filmstripSpeed = 50000,
       filmstripEasing = 'linear',
       preloadedImages = [
-        'images/elissa-aron-purple2.jpg',
-        'images/elissa-aron-jacket1.jpg',
-        'images/elissa-aron-orange2.jpg',
-        'images/elissa-aron-purple1.jpg',
-        'images/elissa-aron-white3.jpg',
-        'images/elissa-aron-jacket2.jpg',
-        'images/elissa-aron-black2.jpg',
-        'images/elissa-aron-white1.jpg',
-        'images/elissa-aron-blue.jpg'
+        {
+          src: 'images/elissa-aron-purple2.jpg'
+        },
+        {
+          src: 'images/elissa-aron-jacket1.jpg'
+        },
+        {
+          src: 'images/elissa-aron-orange2.jpg'
+        },
+        {
+          src: 'images/elissa-aron-purple1.jpg'
+        },
+        {
+          src: 'images/elissa-aron-white3.jpg'
+        },
+        {
+          src: 'images/elissa-aron-jacket2.jpg'
+        },
+        {
+          src: 'images/elissa-aron-black2.jpg'
+        },
+        {
+          src: 'images/elissa-aron-white1.jpg'
+        },
+        {
+          src: 'images/elissa-aron-purple3.jpg'
+        },
+        {
+          src: 'images/elissa-aron-yellow2.jpg'
+        },
+        {
+          src: 'images/elissa-aron-blue.jpg'
+        }
       ],
       filmstripTimeout;
 
     $(preloadedImages).each(function() {
-      $('<img />')[0].src = this;
+      $('<img />')[0] = this;
     });
 
     $filmstripHolder2.css('top', -filmstripHeight);
