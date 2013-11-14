@@ -2,50 +2,73 @@
   // Handler for .ready() called
   $(function(){
 
-    // filmstrip holder, pictures, and sides
+    // filmstrip holder, photos, and sides
     var $filmstripHolder = $('.filmstrip-holder'),
       $filmstripHolder2 = $('.filmstrip-holder2'),
-      $filmstripPhotos = $('.filmstrip-holder img'),
+      $filmstripPhotos = $filmstripHolder.find('img'),
       $filmstripSides = $('.filmstrip-sides'),
       filmstripHeight = $filmstripHolder.height(),
       filmstripSpeed = 50000,
       filmstripEasing = 'linear',
+      preloadedImages = [
+        'images/elissa-aron-purple2.jpg',
+        'images/elissa-aron-jacket1.jpg',
+        'images/elissa-aron-orange2.jpg',
+        'images/elissa-aron-purple1.jpg',
+        'images/elissa-aron-white3.jpg',
+        'images/elissa-aron-jacket2.jpg',
+        'images/elissa-aron-black2.jpg',
+        'images/elissa-aron-white1.jpg',
+        'images/elissa-aron-blue.jpg'
+      ],
       filmstripTimeout;
+
+    $(preloadedImages).each(function() {
+      $('<img />')[0].src = this;
+    });
 
     $filmstripHolder2.css('top', -filmstripHeight);
 
-    // animate filmstrip
+
+    /**
+     * runFilmstrip() recursively calls jQuery animate on
+     * each img in $filmstripPhotos and $filmstripSides;
+     * upon completion the animation is reset
+     */
     function runFilmstrip() {
 
 
         $.each($filmstripPhotos, function ( index, value ) {
-          $(value)
-            .animate({
-                'top': filmstripHeight
-              }, {
-                duration: filmstripSpeed,
-                easing: filmstripEasing,
-                complete: function() {
-                   $(this).css({'top': 0 });
-                }
-              })
-        });
-
-        $filmstripSides
-          .animate({
+          $(value).animate({
             'top': filmstripHeight
-          }, {
+          },{
             duration: filmstripSpeed,
             easing: filmstripEasing,
             complete: function() {
-              $(this).css({'top': '0'});
+              $(this).css({'top': 0});
             }
-          });
+          })
+        });
+
+        $filmstripSides.animate({
+          'top': filmstripHeight
+        },{
+          duration: filmstripSpeed,
+          easing: filmstripEasing,
+          complete: function() {
+            $(this).css({'top': '0'});
+          }
+        });
 
         clearTimeout(filmstripTimeout);
         filmstripTimeout = setTimeout(runFilmstrip, filmstripSpeed);
     }
     runFilmstrip();
+
+    $(window).on('resize', function(){
+      clearTimeout(filmstripTimeout);
+      filmstripTimeout = setTimeout(runFilmstrip, filmstripSpeed);
+    });
 
     //initialization for magnificPopup
     $('.video-clips1').magnificPopup({

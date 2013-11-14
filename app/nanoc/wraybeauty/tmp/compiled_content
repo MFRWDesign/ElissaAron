@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"í.<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI"ï.<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -123,6 +123,8 @@
   </article>
 
 
+
+
   <aside class="filmstrip-holder">
     <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
     <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
@@ -226,7 +228,7 @@
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"©	<section>
+;T:rawI"«	<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
@@ -240,6 +242,8 @@
     </strong>
     <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
   </article>
+
+
 
 
   <aside class="filmstrip-holder">
@@ -261,7 +265,7 @@
 <!--     <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
   </aside>
-</section>;T:preI"‡<section>
+</section>;T:preI"‰<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
@@ -275,6 +279,8 @@
     </strong>
     <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
   </article>
+
+
 
 
   <aside class="filmstrip-holder">
