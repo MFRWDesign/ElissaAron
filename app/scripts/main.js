@@ -8,7 +8,7 @@
       $filmstripPhotos = $filmstripHolder.find('img'),
       $filmstripSides = $('.filmstrip-sides'),
       filmstripHeight = $filmstripHolder.height(),
-      filmstripSpeed = 50000,
+      filmstripSpeed = 10000,
       filmstripEasing = 'linear',
       preloadedImages = [
         {
