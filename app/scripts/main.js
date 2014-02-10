@@ -5,10 +5,13 @@
     // filmstrip holder, photos, and sides
     var $filmstripHolder = $('.filmstrip-holder'),
       $filmstripHolder2 = $('.filmstrip-holder2'),
-      $filmstripPhotos = $filmstripHolder.find('img'),
+      $filmstripPhotos = $('.filmstrip-holder > img'),
+      $filmstripPhotos2 = $('.filmstrip-holder2 > img'),
       $filmstripSides = $('.filmstrip-sides'),
+      $filmstripSides2 = $('.filmstrip-sides2'),
       filmstripHeight = $filmstripHolder.height(),
-      filmstripSpeed = 10000,
+      filmstripHeight2 = $filmstripHolder2.height(),
+      filmstripSpeed = 20000,
       filmstripEasing = 'linear',
       preloadedImages = [
         {
@@ -51,7 +54,9 @@
       $('<img />')[0] = this;
     });
 
-    $filmstripHolder2.css('top', -filmstripHeight);
+    $filmstripHolder.css('top', '0');
+    $filmstripHolder2.css('top', -filmstripHeight2 );
+
 
 
     /**
@@ -69,7 +74,19 @@
             duration: filmstripSpeed,
             easing: filmstripEasing,
             complete: function() {
-              $(this).css({'top': 0});
+              $(this).css({'top': '0'});
+            }
+          })
+        });
+
+        $.each($filmstripPhotos2, function ( index, value ) {
+          $(value).animate({
+            'top': filmstripHeight2
+          },{
+            duration: filmstripSpeed,
+            easing: filmstripEasing,
+            complete: function() {
+              $(this).css({'top': '0'});
             }
           })
         });
@@ -84,15 +101,20 @@
           }
         });
 
+        $filmstripSides2.animate({
+          'top': filmstripHeight2
+        },{
+          duration: filmstripSpeed,
+          easing: filmstripEasing,
+          complete: function() {
+            $(this).css({'top': '0'});
+          }
+        });
+
         clearTimeout(filmstripTimeout);
         filmstripTimeout = setTimeout(runFilmstrip, filmstripSpeed);
     }
     runFilmstrip();
-
-    $(window).on('resize', function(){
-      clearTimeout(filmstripTimeout);
-      filmstripTimeout = setTimeout(runFilmstrip, filmstripSpeed);
-    });
 
     //initialization for magnificPopup
     $('.video-clips1').magnificPopup({
@@ -158,6 +180,9 @@
     $('.photos-headshots').magnificPopup({
       items: [
         {
+          src: '/images/elissa-aron-adorable.jpg'
+        },
+        {
           src: '/images/elissa-aron-black1.jpg',
         },
         {
@@ -187,18 +212,18 @@
         {
           src: '/images/elissa-aron-orange3.jpg',
         },
-        {
-          src: '/images/elissa-aron-purple1.jpg',
-        },
+        // {
+        //   src: '/images/elissa-aron-purple1.jpg',
+        // },
         {
           src: '/images/elissa-aron-purple2.jpg',
         },
         {
           src: '/images/elissa-aron-purple3.jpg',
         },
-        {
-          src: '/images/elissa-aron-purple4.jpg',
-        },
+        // {
+        //   src: '/images/elissa-aron-purple4.jpg',
+        // },
         {
           src: '/images/elissa-aron-teal.jpg',
         },
@@ -217,21 +242,21 @@
         {
           src: '/images/elissa-aron-yellow1.jpg',
         },
-        {
-          src: '/images/elissa-aron-yellow2.jpg',
-        },
+        // {
+        //   src: '/images/elissa-aron-yellow2.jpg',
+        // },
         {
           src: '/images/elissa-aron-yellow3.jpg',
         },
-        {
-          src: '/images/elissa-aron-yellow4.jpg',
-        },
+        // {
+        //   src: '/images/elissa-aron-yellow4.jpg',
+        // },
         {
           src: '/images/elissa-aron-yellow5.jpg',
         },
-        {
-          src: '/images/elissa-aron-yellow6.jpg',
-        },
+        // {
+        //   src: '/images/elissa-aron-yellow6.jpg',
+        // },
         {
           src: '/images/elissa-aron-yellow7.jpg',
         },
@@ -245,4 +270,47 @@
       type: 'image'
     });
   });
+
+  // on resize reset and then restart the animation
+  $( window ).resize(function() {
+    $filmstripSides.stop();
+    $filmstripSides2.stop();
+    $.each($filmstripPhotos, function ( index, value ) {
+      $(value).stop();
+    });
+    $.each($filmstripPhotos2, function ( index, value ) {
+      $(value).stop();
+    });
+    $filmstripHolder = $('.filmstrip-holder');
+    $filmstripHolder2 = $('.filmstrip-holder2');
+
+    $filmstripPhotos = $('.filmstrip-holder > img'),
+    $filmstripPhotos2 = $('.filmstrip-holder2 > img'),
+    $filmstripSides = $('.filmstrip-sides'),
+    $filmstripSides2 = $('.filmstrip-sides2'),
+    filmstripHeight = $filmstripHolder.height(),
+    filmstripHeight2 = $filmstripHolder2.height(),
+
+    $filmstripHolder.removeAttr('style');
+    $filmstripHolder2.removeAttr('style');
+    $filmstripHolder.css('top', '0');
+    $filmstripHolder2.css('top', -filmstripHeight2);
+    $filmstripSides.removeAttr('style');
+    $filmstripSides2.removeAttr('style');
+    $filmstripSides.css({'top': '0'});
+    $filmstripSides2.css({'top': '0'});
+    $.each($filmstripPhotos, function ( index, value ) {
+      $(value)
+        .removeAttr('style')
+        .css({'top': 0});
+    });
+    $.each($filmstripPhotos2, function ( index, value ) {
+      $(value)
+        .removeAttr('style')
+        .css({'top': 0});
+    });
+    clearTimeout(filmstripTimeout);
+    runFilmstrip();
+  });
+
 }(window.jQuery);

@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"ï.<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI"±/<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -125,24 +125,32 @@
 
 
 
-  <aside class="filmstrip-holder">
+  <aside class="filmstrip-holder" id="welcome">
     <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <!-- <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <div class="filmstrip-holder2">
-        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+    <img src="images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <!-- <img src="images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+    <img src="images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+    <img src="images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+
 <!--     <img class="visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+
+    <div class="filmstrip-holder2" id="norotate">
+        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <!-- <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+        <img src="images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+        <!-- <img src="images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+        <img src="images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+        <img src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+        <img src="images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+        <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
 </section>
         </div>
@@ -166,13 +174,6 @@
                           <h4 class="no-top-margin reduce-bottom-margin-to-10">
                           <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span>
                           </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
-                              <span class="tel"><a href="tel:+19546484040">+1-954-648-4040</a></span>
-                            </h4>
                         </div>
                     </div>
                     <div class="row add-bottom-padding">
@@ -228,7 +229,7 @@
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"«	<section>
+;T:rawI"O<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
@@ -246,26 +247,35 @@
 
 
 
-  <aside class="filmstrip-holder">
+  <aside class="filmstrip-holder" id="welcome">
     <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <div class="filmstrip-holder2">
-        <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-        <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <img src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-        <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+    <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+    <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+    <img src="<%= @item[:level] %>images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+
 <!--     <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+
+    <div class="filmstrip-holder2" id="norotate">
+        <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+        <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+        <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+        <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+        <img src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+        <img src="<%= @item[:level] %>images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+        <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
-</section>;T:preI"‰<section>
+</section>;T:preI"µ
+<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
     <h1><strong>Welcome</strong></h1>
@@ -283,24 +293,32 @@
 
 
 
-  <aside class="filmstrip-holder">
+  <aside class="filmstrip-holder" id="welcome">
     <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
+    <!-- <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-    <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <div class="filmstrip-holder2">
-        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
-        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <img src="images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-        <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
-        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-        <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+    <img src="images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <!-- <img src="images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+    <img src="images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+    <img src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+    <img src="images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+
 <!--     <img class="visible-xxs" src="images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+
+    <div class="filmstrip-holder2" id="norotate">
+        <img src="images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <!-- <img src="images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+        <img src="images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+        <img src="images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+        <img src="images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+        <!-- <img src="images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
+        <img src="images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
+        <img src="images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+        <img src="images/elissa-aron-yellow3.jpg" alt="Elissa Aron Yellow Photo 3" /> -->
+        <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
 </section>;T:	post@
 I"/wedding-makeup/;T{;{	;I"+<!doctype html>
@@ -1780,7 +1798,7 @@ I"=<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;@(I"/about-elissa-aron/;T{;{	;I"?2<!doctype html>
+</div>;T;@(I"/about-elissa-aron/;T{;{	;I"ú2<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1893,33 +1911,41 @@ I"=<div class="row">
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
-    <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
-    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times.  Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work.  She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
-    <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
+    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+    <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
     <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
     <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
-  <aside class="filmstrip-holder">
-    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip-holder2">
-      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+  <aside class="filmstrip-holder" id="about">
+    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+    <!-- <img src="../images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" /> -->
+    <!-- <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+    <img class="visible-xxs" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+    <img src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="../images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <img src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    <div class="filmstrip-holder2" id="norotate">
+      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+      <!-- <img src="../images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" />
+      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+      <img class="visible-xxs" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+      <img src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+      <img src="../images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <img src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+
+      <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
 </section>
         </div>
@@ -1943,13 +1969,6 @@ I"=<div class="row">
                           <h4 class="no-top-margin reduce-bottom-margin-to-10">
                           <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span>
                           </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
-                              <span class="tel"><a href="tel:+19546484040">+1-954-648-4040</a></span>
-                            </h4>
                         </div>
                     </div>
                     <div class="row add-bottom-padding">
@@ -2005,72 +2024,88 @@ I"=<div class="row">
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"}<section>
+;T;	I"<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
-    <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
-    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times.  Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work.  She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
-    <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
+    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+    <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
     <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
     <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
-  <aside class="filmstrip-holder">
-    <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img src="<%= @item[:level] %>images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip-holder2">
-      <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img src="<%= @item[:level] %>images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img src="<%= @item[:level] %>images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-      <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+  <aside class="filmstrip-holder" id="about">
+    <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+    <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" /> -->
+    <!-- <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+    <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+    <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <img src="<%= @item[:level] %>images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    <div class="filmstrip-holder2" id="norotate">
+      <img src="<%= @item[:level] %>images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+      <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" />
+      <img class="visible-xxs visible-xs" src="<%= @item[:level] %>images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+      <img class="visible-xxs" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+      <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+      <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <img src="<%= @item[:level] %>images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+
+      <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
 </section>;T;
-I"~<section>
+I"£<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <h1><strong>About</strong></h1>
-    <h3>Elissa Aron is an actress and singer, and is currently living in New York City.</h3>
-    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times.  Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work.  She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
-    <p>Now a college graduate, Elissa still loves getting attention!  Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios.  She loves everything New York City has to offer, although she would be thankful for sunnier weather!</p>
+    <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+    <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
     <p>Thanks for stopping by!</p>
     <p>See more at:</p>
     <p><a href="http://about.me/elissaaron">http://about.me/elissaaron</a></p>
     <p><a href="http://www.imdb.me/elissaaron">http://www.imdb.me/elissaaron</a></p>
   </article>
-  <aside class="filmstrip-holder">
-    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-    <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-    <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-    <div class="filmstrip-holder2">
-      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img src="../images/elissa-aron-jacket2.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img src="../images/elissa-aron-yellow2.jpg" alt="Elissa Aron Blue Photo" />
-      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
-      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron Yellow Photo 1" />
-      <img class="visible-xxs" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 2" />
-      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
-      <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
-    </div>
+  <aside class="filmstrip-holder" id="about">
+    <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+    <!-- <img src="../images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" /> -->
+    <!-- <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+    <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+    <img class="visible-xxs" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+    <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+    <img src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img src="../images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+    <img src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+    <img src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
+    <div class="filmstrip-holder2" id="norotate">
+      <img src="../images/elissa-aron-white3.jpg" alt="Elissa Aron White Photo 3" />
+      <!-- <img src="../images/elissa-aron-jacket3.jpg" alt="Elissa Aron Jacket Photo 3" />
+      <img class="visible-xxs visible-xs" src="../images/elissa-aron-black2.jpg" alt="Elissa Aron Black Photo 2" />
+      <img class="visible-xxs" src="../images/elissa-aron-white1.jpg" alt="Elissa Aron White Photo 1" />
+      <img class="visible-xxs" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+      <img class="visible-xxs" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" /> -->
+
+      <img src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
+      <img src="../images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
+      <img src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
+      <img src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
+
+      <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
+    </div>
   </aside>
-</section>;T;@.I"/resume-elissa-aron/;T{;{	;I"…9<!doctype html>
+</section>;T;@.I"/resume-elissa-aron/;T{;{	;I"Õ8<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2179,76 +2214,80 @@ I"~<section>
 
 
         <div class="container">
-          <section>
+          <section class="hidden">
   <aside>
     <!-- <img class="img-responsive" src="../images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <h1><strong>Elissa Aron</strong></h1>
     <h4><strong>SAG-E</strong></h4>
-    <p>954.648.4040 ElissaAron@hotmail.com</p>
+    <p>ElissaAron@hotmail.com</p>
   </aside>
   <div class="resume-header">
    <!--  <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
     <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
-    <img class="img-responsive photograph" src="../images/elissa-aron-yellow6.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img class="img-responsive photograph" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <!-- <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
   <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
   <div class="resume-header hidden-xs">
-   <!--  <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+    <!-- <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img class="img-responsive photograph2" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Orange Photo 2" />
     <!-- <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
-  <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
+    <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
 </section>
 <section>
   <div class="resume-content">
-    <h3><strong>Film</strong></h3>
-    <ul>
-      <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
-      <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
-      <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
-      <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
-      <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
-      <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
-    </ul>
-    <h3><strong>New Media</strong></h3>
-    <ul>
-      <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
-      <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
-      <li>Cinder : <em>Supporting - Mike Yuen</em></li>
-      <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
-    </ul>
-    <h3><strong>Theatre</strong></h3>
-    <ul>
-      <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
-      <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
-      <li>The Boychick Affair : <em>Soraii - Comix</em></li>
-      <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
-      <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
-      <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
-      <li>Grease : <em>Sandy - Performance Project</em></li>
-    </ul>
-    <h3><strong>Training</strong></h3>
-    <ul>
-      <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
-      <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
-      <li>Circle in the Square</li>
-      <li>Interlochen Center for the Performing Arts</li>
-      <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
-      <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
-      <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
-      <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
-      <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
-      <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
-    </ul>
-    <h3><strong>Special Skills</strong></h3>
-    <p>
-      Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
-    </p>
+    <a href="../Elissa-Aron-Resume.pdf">
+      <img class="img-responsive" src="../images/Elissa-Aron-Resume.jpg" alt="Image of Elissa Aron's Resume" />
+    </a>
+    <div class="hidden">
+      <h3><strong>Film</strong></h3>
+      <ul>
+        <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
+        <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
+        <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
+        <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
+        <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
+        <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
+      </ul>
+      <h3><strong>New Media</strong></h3>
+      <ul>
+        <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
+        <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
+        <li>Cinder : <em>Supporting - Mike Yuen</em></li>
+        <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
+      </ul>
+      <h3><strong>Theatre</strong></h3>
+      <ul>
+        <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
+        <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
+        <li>The Boychick Affair : <em>Soraii - Comix</em></li>
+        <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
+        <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
+        <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
+        <li>Grease : <em>Sandy - Performance Project</em></li>
+      </ul>
+      <h3><strong>Training</strong></h3>
+      <ul>
+        <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
+        <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
+        <li>Circle in the Square</li>
+        <li>Interlochen Center for the Performing Arts</li>
+        <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
+        <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
+        <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
+        <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
+        <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
+        <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
+      </ul>
+      <h3><strong>Special Skills</strong></h3>
+      <p>
+        Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
+      </p>
+    </div>
   </div>
 </section>
         </div>
@@ -2272,13 +2311,6 @@ I"~<section>
                           <h4 class="no-top-margin reduce-bottom-margin-to-10">
                           <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span>
                           </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
-                              <span class="tel"><a href="tel:+19546484040">+1-954-648-4040</a></span>
-                            </h4>
                         </div>
                     </div>
                     <div class="row add-bottom-padding">
@@ -2334,150 +2366,158 @@ I"~<section>
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"<section>
+;T;	I"J<section class="hidden">
   <aside>
     <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <h1><strong>Elissa Aron</strong></h1>
     <h4><strong>SAG-E</strong></h4>
-    <p>954.648.4040 ElissaAron@hotmail.com</p>
+    <p>ElissaAron@hotmail.com</p>
   </aside>
   <div class="resume-header">
    <!--  <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
-    <img class="img-responsive photograph" src="<%= @item[:level] %>images/elissa-aron-yellow6.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img class="img-responsive photograph" src="<%= @item[:level] %>images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <!-- <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
   <!--   <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
   <div class="resume-header hidden-xs">
-   <!--  <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img class="img-responsive photograph2" src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Orange Photo 2" />
     <!-- <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
-  <!--   <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
+    <!--   <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
 </section>
 <section>
   <div class="resume-content">
-    <h3><strong>Film</strong></h3>
-    <ul>
-      <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
-      <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
-      <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
-      <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
-      <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
-      <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
-    </ul>
-    <h3><strong>New Media</strong></h3>
-    <ul>
-      <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
-      <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
-      <li>Cinder : <em>Supporting - Mike Yuen</em></li>
-      <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
-    </ul>
-    <h3><strong>Theatre</strong></h3>
-    <ul>
-      <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
-      <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
-      <li>The Boychick Affair : <em>Soraii - Comix</em></li>
-      <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
-      <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
-      <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
-      <li>Grease : <em>Sandy - Performance Project</em></li>
-    </ul>
-    <h3><strong>Training</strong></h3>
-    <ul>
-      <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
-      <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
-      <li>Circle in the Square</li>
-      <li>Interlochen Center for the Performing Arts</li>
-      <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
-      <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
-      <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
-      <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
-      <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
-      <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
-    </ul>
-    <h3><strong>Special Skills</strong></h3>
-    <p>
-      Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
-    </p>
+    <a href="<%= @item[:level] %>Elissa-Aron-Resume.pdf">
+      <img class="img-responsive" src="<%= @item[:level] %>images/Elissa-Aron-Resume.jpg" alt="Image of Elissa Aron's Resume" />
+    </a>
+    <div class="hidden">
+      <h3><strong>Film</strong></h3>
+      <ul>
+        <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
+        <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
+        <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
+        <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
+        <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
+        <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
+      </ul>
+      <h3><strong>New Media</strong></h3>
+      <ul>
+        <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
+        <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
+        <li>Cinder : <em>Supporting - Mike Yuen</em></li>
+        <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
+      </ul>
+      <h3><strong>Theatre</strong></h3>
+      <ul>
+        <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
+        <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
+        <li>The Boychick Affair : <em>Soraii - Comix</em></li>
+        <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
+        <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
+        <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
+        <li>Grease : <em>Sandy - Performance Project</em></li>
+      </ul>
+      <h3><strong>Training</strong></h3>
+      <ul>
+        <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
+        <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
+        <li>Circle in the Square</li>
+        <li>Interlochen Center for the Performing Arts</li>
+        <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
+        <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
+        <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
+        <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
+        <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
+        <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
+      </ul>
+      <h3><strong>Special Skills</strong></h3>
+      <p>
+        Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
+      </p>
+    </div>
   </div>
 </section>;T;
-I"Ä<section>
+I"~<section class="hidden">
   <aside>
     <!-- <img class="img-responsive" src="../images/elissa-aron-orange1.jpg" alt="Elissa Aron Orange Photo 1" /> -->
     <h1><strong>Elissa Aron</strong></h1>
     <h4><strong>SAG-E</strong></h4>
-    <p>954.648.4040 ElissaAron@hotmail.com</p>
+    <p>ElissaAron@hotmail.com</p>
   </aside>
   <div class="resume-header">
    <!--  <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
     <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
-    <img class="img-responsive photograph" src="../images/elissa-aron-yellow6.jpg" alt="Elissa Aron Orange Photo 2" />
+    <img class="img-responsive photograph" src="../images/elissa-aron-yellow5.jpg" alt="Elissa Aron Yellow Photo 5" />
     <!-- <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
   <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
   <div class="resume-header hidden-xs">
-   <!--  <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
-    <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
+    <!-- <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <img class="img-responsive photograph2" src="../images/elissa-aron-blue.jpg" alt="Elissa Aron Orange Photo 2" />
     <!-- <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
-  <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
+    <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </div>
 </section>
 <section>
   <div class="resume-content">
-    <h3><strong>Film</strong></h3>
-    <ul>
-      <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
-      <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
-      <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
-      <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
-      <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
-      <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
-    </ul>
-    <h3><strong>New Media</strong></h3>
-    <ul>
-      <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
-      <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
-      <li>Cinder : <em>Supporting - Mike Yuen</em></li>
-      <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
-    </ul>
-    <h3><strong>Theatre</strong></h3>
-    <ul>
-      <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
-      <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
-      <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
-      <li>The Boychick Affair : <em>Soraii - Comix</em></li>
-      <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
-      <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
-      <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
-      <li>Grease : <em>Sandy - Performance Project</em></li>
-    </ul>
-    <h3><strong>Training</strong></h3>
-    <ul>
-      <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
-      <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
-      <li>Circle in the Square</li>
-      <li>Interlochen Center for the Performing Arts</li>
-      <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
-      <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
-      <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
-      <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
-      <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
-      <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
-    </ul>
-    <h3><strong>Special Skills</strong></h3>
-    <p>
-      Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
-    </p>
+    <a href="../Elissa-Aron-Resume.pdf">
+      <img class="img-responsive" src="../images/Elissa-Aron-Resume.jpg" alt="Image of Elissa Aron's Resume" />
+    </a>
+    <div class="hidden">
+      <h3><strong>Film</strong></h3>
+      <ul>
+        <li>Places Where We Lived : <em>Supporting - Bernardo Britto/SXSW</em></li>
+        <li>A Certified Man : <em>Lead - Jack Gattanella/New Filmmakers NY</em></li>
+        <li>Summerâ€™s Gone : <em>Lead - Sido Yao Lu</em></li>
+        <li>The First Days : <em>Lead - Geraldine Inoa</em></li>
+        <li>The Couch : <em>Supporting - Dana Mileguir</em></li>
+        <li>Silent Chauffeurs : <em>Lead - Michael Crommett</em></li>
+      </ul>
+      <h3><strong>New Media</strong></h3>
+      <ul>
+        <li>Paragraph 18 : <em>Lead - Bornilla Chatterjee</em></li>
+        <li>Total Eclipse : <em>Lead - Chris Modoono</em></li>
+        <li>Cinder : <em>Supporting - Mike Yuen</em></li>
+        <li>Lewis Black Drama Queen : <em>Costar - Adam Bernstein</em></li>
+      </ul>
+      <h3><strong>Theatre</strong></h3>
+      <ul>
+        <li>Three Guys and a Brenda : <em>Brenda - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Late Night Cabaret Series : <em>Featured Ens. - Williamstown Theatre Festival</em></li>
+        <li>SitStandWalkLieDown : <em>Performer - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chronicles Simpkins : <em>Jessica - Workshop, Williamstown Theatre Festival</em></li>
+        <li>Chautauqua! : <em>Soloist - Under the Radar, The Public Theater</em></li>
+        <li>The Boychick Affair : <em>Soraii - Comix</em></li>
+        <li>How We Love : <em>Alison - NYU/Playwrights Horizons</em></li>
+        <li>Peace of Mind : <em>Candy - Parker Playhouse/Tysen & Miller</em></li>
+        <li>Songs for a New World : <em>Woman 1 - FL Mainstage State Thespian</em></li>
+        <li>Grease : <em>Sandy - Performance Project</em></li>
+      </ul>
+      <h3><strong>Training</strong></h3>
+      <ul>
+        <li><strong>New York University, Tisch, B.F.A. Drama</strong> - <em>CAP21 & Stonestreet Film Studios, 2012</em></li>
+        <li>Williamstown Theatre Festival - <em>Apprentice</em></li>
+        <li>Circle in the Square</li>
+        <li>Interlochen Center for the Performing Arts</li>
+        <li><strong>Acting:</strong> <em>Sheila Gray, Scott Freeman, Kate Guyton, Larry Arancio, Aimee Francis, LeRoy Rogers, Sybil Lines, Alan Langdon, Terese Hayden, Ken Schatz, Erin Ortman</em></li>
+        <li><strong>On-Camera:</strong> <em>Ted Sluberski, Gary Bennett, Zach Galligan</em></li>
+        <li><strong>Voice-over:</strong> <em>Andy Roth</em></li>
+        <li><strong>Improv:</strong> <em>Neil W. Casey, Ryan Karels, Ben Rodgers (UCB), Winston Noel (UCB), Elena Garcia</em></li>
+        <li><strong>Voice:</strong> <em>Aaron Hagan, Dr. Pamelia Phillips, Randy Redd, Bill Daugherty, Bill Reed, Jan Horvath</em></li>
+        <li><strong>Dance:</strong> <em>Modern (int.), Hip Hop (int.), Jazz (int.), Ballet (int.), Tap (beg/int.), African</em></li>
+      </ul>
+      <h3><strong>Special Skills</strong></h3>
+      <p>
+        Soprano/Mix/Belt, ukulele, Ke$ha inspired rap, upper body contortionist, improv, interactive theater,  various vocal styles, Viewpoints, Shakespearean verse, songwriter, excellent relative pitch/sight singer, basic piano/guitar, figure skater, horseback rider, backbend, great with kids, valid drivers license and US passport
+      </p>
+    </div>
   </div>
-</section>;T;@4I"/videos-elissa-aron/;T{;{	;I"z/<!doctype html>
+</section>;T;@4I"/videos-elissa-aron/;T{;{	;I".<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2592,10 +2632,10 @@ I"Ä<section>
     <h1 class="no-bottom-margin"><strong>Videos</strong></h1>
   </aside>
   <article>
-    <!-- <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" /> -->
+    <!-- <img class="img-responsive" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
     <!-- <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <!-- <img class="img-responsive" src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
+    <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" /> -->
   <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </article>
 </section>
@@ -2648,13 +2688,6 @@ I"Ä<section>
                           <h4 class="no-top-margin reduce-bottom-margin-to-10">
                           <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span>
                           </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
-                              <span class="tel"><a href="tel:+19546484040">+1-954-648-4040</a></span>
-                            </h4>
                         </div>
                     </div>
                     <div class="row add-bottom-padding">
@@ -2716,10 +2749,10 @@ I"Ä<section>
     <h1 class="no-bottom-margin"><strong>Videos</strong></h1>
   </aside>
   <article>
-    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" /> -->
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
     <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <!-- <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
+    <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" /> -->
   <!--   <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </article>
 </section>
@@ -2757,10 +2790,10 @@ I"¹<section>
     <h1 class="no-bottom-margin"><strong>Videos</strong></h1>
   </aside>
   <article>
-    <!-- <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" /> -->
+    <!-- <img class="img-responsive" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
     <!-- <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
     <!-- <img class="img-responsive" src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
-    <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
+    <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" /> -->
   <!--   <img class="img-responsive visible-xxs" src="../images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" /> -->
   </article>
 </section>
@@ -2791,7 +2824,7 @@ I"¹<section>
       <div class="play-button"></div>
     </button>
   </div>
-</section>;T;@:I"/photos-elissa-aron/;T{;{	;I"ø+<!doctype html>
+</section>;T;@:I"/photos-elissa-aron/;T{;{	;I"Ž*<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2906,7 +2939,7 @@ I"¹<section>
     <h1>Photos</h1>
   </article>
   <aside>
-    <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
     <img class="img-responsive" src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
     <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
@@ -2916,7 +2949,7 @@ I"¹<section>
   <div class="video-content">
     <h1><strong>Headshots</strong></h1>
     <button class="video-thumbnail photos-headshots">
-      <img class="img-responsive photograph3" src="../images/elissa-aron-purple1.jpg" alt="Headshots Photos" />
+      <img class="img-responsive photograph3" src="../images/elissa-aron-adorable.jpg" alt="Headshots Photos"/>
       <div class="play-button"></div>
     </button>
   </div>
@@ -2951,13 +2984,6 @@ I"¹<section>
                           <h4 class="no-top-margin reduce-bottom-margin-to-10">
                           <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span>
                           </h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h4 class="no-top-margin reduce-bottom-margin-to-10">
-                              <span class="tel"><a href="tel:+19546484040">+1-954-648-4040</a></span>
-                            </h4>
                         </div>
                     </div>
                     <div class="row add-bottom-padding">
@@ -3019,7 +3045,7 @@ I"¹<section>
     <h1>Photos</h1>
   </article>
   <aside>
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
     <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
     <img class="img-responsive visible-xxs" src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
@@ -3029,7 +3055,7 @@ I"¹<section>
   <div class="video-content">
     <h1><strong>Headshots</strong></h1>
     <button class="video-thumbnail photos-headshots">
-      <img class="img-responsive photograph3" src="<%= @item[:level] %>images/elissa-aron-purple1.jpg" alt="Headshots Photos" />
+      <img class="img-responsive photograph3" src="<%= @item[:level] %>images/elissa-aron-adorable.jpg" alt="Headshots Photos"/>
       <div class="play-button"></div>
     </button>
   </div>
@@ -3049,7 +3075,7 @@ I"7<!-- <section>
     <h1>Photos</h1>
   </article>
   <aside>
-    <img class="img-responsive" src="../images/elissa-aron-purple1.jpg" alt="Elissa Aron Purple Photo 1" />
+    <img class="img-responsive" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
     <img class="img-responsive" src="../images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" />
     <img class="img-responsive" src="../images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
     <img class="img-responsive visible-xxs" src="../images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
@@ -3059,7 +3085,7 @@ I"7<!-- <section>
   <div class="video-content">
     <h1><strong>Headshots</strong></h1>
     <button class="video-thumbnail photos-headshots">
-      <img class="img-responsive photograph3" src="../images/elissa-aron-purple1.jpg" alt="Headshots Photos" />
+      <img class="img-responsive photograph3" src="../images/elissa-aron-adorable.jpg" alt="Headshots Photos"/>
       <div class="play-button"></div>
     </button>
   </div>

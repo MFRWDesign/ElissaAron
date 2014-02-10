@@ -12,6 +12,15 @@ $custom-font-path: "fonts/";
 }
 
 @font-face {
+  font-family: 'TTWPGOTT';
+  src: url('#{$custom-font-path}TTWPGOTT.eot');
+  src: url('#{$custom-font-path}TTWPGOTT.eot?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}TTWPGOTT.woff') format('woff'),
+       url('#{$custom-font-path}TTWPGOTT.ttf') format('truetype'),
+       url('#{$custom-font-path}TTWPGOTT.svg') format('svg');
+}
+
+@font-face {
   font-family: 'Arwen';
   src: url('#{$custom-font-path}ARWEN.otf');
   src: url('#{$custom-font-path}ARWEN.otf?#iefix') format('embedded-opentype'),
@@ -40,10 +49,10 @@ $custom-font-path: "fonts/";
 
 $brand-primary:         #ea7765;
 
-$font-family-sans-serif:  "Matchbook", "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "Matchbook-Serif", Georgia, "Times New Roman", Times, serif;
+$font-family-sans-serif:  "TTWPGOTT", "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "TTWPGOTT", Georgia, "Times New Roman", Times, serif;
 
-$font-size-base:          36px;
+$font-size-base:          23px;
 $line-height-base:        1.028571429; // 20/14
 
 $navbar-default-toggle-hover-bg:           lighten(#E87767, 25%);
@@ -114,7 +123,7 @@ body {
     padding-bottom: 70px;
     //background-color: #B1C6BF;
     //@include gradient-radial(#B1C6BF, #B1C6C0);
-    background: url('/images/skyline-los-angeles.jpg') no-repeat center center fixed;
+    background: url('/images/natural-sunset.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -215,7 +224,7 @@ aside {
 }
 
 h1 {
-    font-family: "Arwen";
+    font-family: "TTWPGOTT";
     text-transform: uppercase;
     font-size: 41px;
 }
@@ -247,7 +256,7 @@ button.video-thumbnail {
    left: 43%;
 }
 
-.filmstrip-sides {
+.filmstrip-sides, .filmstrip-sides2 {
     position: absolute;
     display: block;
     background: url(/images/filmstrip-90.png) repeat-y;
@@ -266,13 +275,21 @@ button.video-thumbnail {
     @include box-shadow(1px 1px 2px #000, -1px -1px 2px #000);
 }
 
-aside.filmstrip-holder {
+aside.filmstrip-holder, aside.filmstrip-holder2{
   width: auto;
   max-width: 100%;
 }
 
+.filmstrip-holder2#norotate {
+    @media (min-width: $screen-xs) {
+        @include rotate(0);
+    }
+    @media (min-width: $screen-sm) {
+        @include rotate(0);
+    }
+}
 
-.filmstrip-holder {
+.filmstrip-holder, .filmstrip-holder2 {
     overflow: hidden;
     position: absolute;
     overflow: none;
@@ -298,15 +315,24 @@ aside.filmstrip-holder {
         }
     }
     @media (min-width: $screen-sm) {
-        @include rotate(-7deg);
+        @include rotate(-8deg);
         img, div > img {
           width: 214px;
         }
     }
 }
 
+@media (min-width: $screen-sm) {
+  .filmstrip-holder#welcome {
+    margin-left: -35px;
+  }
+
+  .filmstrip-holder#about {
+    margin-left: -60px;
+  }
+}
 .filmstrip-holder2 {
-  position: absolute;
+  overflow: visible;
 }
 
 .filmstrip-holder3 {
@@ -350,6 +376,7 @@ aside.filmstrip-holder {
     // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
     box-shadow: 3px 3px 7px $gray;
     @include rotate(-5deg);
+    max-width: 650px;
 }
 
 .navbar-default .navbar-toggle {
