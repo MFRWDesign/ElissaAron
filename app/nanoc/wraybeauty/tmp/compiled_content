@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"M1<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI"ª1<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -89,11 +89,12 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#" class="active" title="You're here.">Welcome</a></li>
+<!--               <li><a href="#" class="active" title="You're here.">Welcome</a></li> -->
               <li><a href="/about-elissa-aron/">About Elissa</a></li>
               <li><a href="/resume-elissa-aron/">Resume</a></li>
               <li><a href="/videos-elissa-aron/">Videos</a></li>
               <li><a href="/photos-elissa-aron/">Photos</a></li>
+              <!-- <li><a href="http://elissanews.wordpress.com/">Blog</a></li> -->
               <!-- <li><a href="/news-elissa-aron/">News</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -121,7 +122,7 @@
             <p>NY: 917.397.0282</p>
             <p>LA: 323.761.0282</p>
             </strong>
-            <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
+            <p>If you are Joseph Gordon-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
         </div>
     </div>
   </article>
@@ -249,7 +250,7 @@
             <p>NY: 917.397.0282</p>
             <p>LA: 323.761.0282</p>
             </strong>
-            <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
+            <p>If you are Joseph Gordon-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
         </div>
     </div>
   </article>
@@ -300,7 +301,7 @@
             <p>NY: 917.397.0282</p>
             <p>LA: 323.761.0282</p>
             </strong>
-            <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
+            <p>If you are Joseph Gordon-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:ElissaAron@hotmail.com?subject=Hello There">ElissaAron@hotmail.com</a></span></p>
         </div>
     </div>
   </article>
@@ -1815,7 +1816,7 @@ I"=<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;@(I"/about-elissa-aron/;T{;{	;I"5<!doctype html>
+</div>;T;@(I"/about-elissa-aron/;T{;{	;I"u5<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1906,11 +1907,12 @@ I"=<div class="row">
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/">Welcome</a></li>
+<!--               <li><a href="/">Welcome</a></li> -->
               <li><a href="#" class="active" title="You're here.">About Elissa</a></li>
               <li><a href="/resume-elissa-aron/">Resume</a></li>
               <li><a href="/videos-elissa-aron/">Videos</a></li>
               <li><a href="/photos-elissa-aron/">Photos</a></li>
+              <!-- <li><a href="http://elissanews.wordpress.com/">Blog</a></li> -->
               <!-- <li><a href="/news-elissa-aron/">News</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -1930,7 +1932,7 @@ I"=<div class="row">
       <div class="col-xs-12">
         <img class="photograph-small img-responsive pull-left max-90" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
         <h1><strong>About</strong></h1>
-        <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+        <p>Although she calls the Sunshine State her home, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
         <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
         <p>Thanks for stopping by!</p>
         <p>See more at:</p>
@@ -2049,13 +2051,13 @@ I"=<div class="row">
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"n<section>
+;T;	I"j<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <div class="row">
       <div class="col-xs-12">
         <img class="photograph-small img-responsive pull-left max-90" src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
         <h1><strong>About</strong></h1>
-        <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+        <p>Although she calls the Sunshine State her home, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
         <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
         <p>Thanks for stopping by!</p>
         <p>See more at:</p>
@@ -2098,13 +2100,13 @@ I"=<div class="row">
     </div>
   </aside>
 </section>;T;
-I"Å<section>
+I"Á<section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
     <div class="row">
       <div class="col-xs-12">
         <img class="photograph-small img-responsive pull-left max-90" src="../images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
         <h1><strong>About</strong></h1>
-        <p>Although she calls the Sunshine State her hometown, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
+        <p>Although she calls the Sunshine State her home, Elissa has been raised all over the United States, and has lived abroad several times. Being the daughter of a cellist, Elissa grew up understanding the importance of music and uses music as a foundation in her work. She also has a sharp sense of humor which she developed growing up the middle child in a very loud family, where she used her wit to get attention and to construct lots of quick comebacks.</p>
         <p>Now a college graduate, Elissa still loves getting attention! Elissa graduated from NYU in 2012, where she studied musical theater at CAP21 and screen acting at Stonestreet Studios. She also spent time at Williamstown Theatre Festival and Upright Citizens Brigade. She recently migrated to Los Angeles and is loving the hiking opportunities and total lack of winter!</p>
         <p>Thanks for stopping by!</p>
         <p>See more at:</p>
@@ -2146,7 +2148,7 @@ I"Å<section>
       <div class="filmstrip-sides2 visible-xs visible-sm visible-md visible-lg"></div>
     </div>
   </aside>
-</section>;T;@.I"/resume-elissa-aron/;T{;{	;I"Õ8<!doctype html>
+</section>;T;@.I"/resume-elissa-aron/;T{;{	;I"29<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2237,11 +2239,12 @@ I"Å<section>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/">Welcome</a></li>
+<!--               <li><a href="/">Welcome</a></li> -->
               <li><a href="/about-elissa-aron/">About Elissa</a></li>
               <li><a href="#" class="active" title="You're here.">Resume</a></li>
               <li><a href="/videos-elissa-aron/">Videos</a></li>
               <li><a href="/photos-elissa-aron/">Photos</a></li>
+              <!-- <li><a href="http://elissanews.wordpress.com/">Blog</a></li> -->
               <!-- <li><a href="/news-elissa-aron/">News</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -2558,7 +2561,7 @@ I"~<section class="hidden">
       </p>
     </div>
   </div>
-</section>;T;@4I"/videos-elissa-aron/;T{;{	;I".<!doctype html>
+</section>;T;@4I"/videos-elissa-aron/;T{;{	;I"m.<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2649,11 +2652,12 @@ I"~<section class="hidden">
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/">Welcome</a></li>
+<!--               <li><a href="/">Welcome</a></li> -->
               <li><a href="/about-elissa-aron/">About Elissa</a></li>
               <li><a href="/resume-elissa-aron/">Resume</a></li>
               <li><a href="#" class="active" title="You're here.">Videos</a></li>
               <li><a href="/photos-elissa-aron/">Photos</a></li>
+              <!-- <li><a href="http://elissanews.wordpress.com/">Blog</a></li> -->
               <!-- <li><a href="/news-elissa-aron/">News</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -2865,7 +2869,7 @@ I"¹<section>
       <div class="play-button"></div>
     </button>
   </div>
-</section>;T;@:I"/photos-elissa-aron/;T{;{	;I"Ž*<!doctype html>
+</section>;T;@:I"/photos-elissa-aron/;T{;{	;I"ë*<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -2956,11 +2960,12 @@ I"¹<section>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/">Welcome</a></li>
+<!--               <li><a href="/">Welcome</a></li> -->
               <li><a href="/about-elissa-aron/">About Elissa</a></li>
               <li><a href="/resume-elissa-aron/">Resume</a></li>
               <li><a href="/videos-elissa-aron/">Videos</a></li>
               <li><a href="#" class="active" title="You're here.">Photos</a></li>
+              <!-- <li><a href="http://elissanews.wordpress.com/">Blog</a></li> -->
               <!-- <li><a href="/news-elissa-aron/">News</a></li> -->
             </ul>
           </div><!-- /.navbar-collapse -->
