@@ -5,26 +5,31 @@ description: 'Elissa Aron: Professional Los Angeles based actor and singer with 
 ---
 <section>
   <article class="col-xs-offset-4 col-sm-offset-4 text-right">
-    <img class="img-responsive" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
-    <h1><strong>Welcome</strong></h1>
-    <p>Welcome and thanks for visiting! Elissa is a Los Angeles based actor and singer with experience on the stage and on the screen.</p>
-    <p>Thanks for stopping by!</p>
-    <p>For Professional inquiries please contact:</p>
-    <strong>
-    <p>Across the Board Talent Agency</p>
-    <p>NY: 917.397.0282</p>
-    <p>LA: 323.761.0282</p>
-    </strong>
-    <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="photograph-small img-responsive pull-left max-90" src="<%= @item[:level] %>images/elissa-aron-orange3.jpg" alt="Elissa Aron Orange Photo 3" />
+            <h1><strong>Welcome</strong></h1>
+            <p>Welcome and thanks for visiting! Elissa is a Los Angeles based actor and singer with experience on the stage and on the screen.</p>
+            <p>Thanks for stopping by!</p>
+            <p>For Professional inquiries please contact:</p>
+            <strong>
+            <p>Across the Board Talent Agency</p>
+            <p>NY: 917.397.0282</p>
+            <p>LA: 323.761.0282</p>
+            </strong>
+            <p>If you are Joseph Gorden-Levitt feel free to call me personally or e-mail me at <span class="email"><a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a></span></p>
+        </div>
+    </div>
   </article>
 
 
 
 
   <aside class="filmstrip-holder" id="welcome">
-    <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+    <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
+    <img src="<%= @item[:level] %>images/banner-elissa-aron-short.jpg" alt="Elissa Aron Banner Image" />
+    <!-- <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" /> -->
     <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
-    <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
     <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
     <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
     <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />
@@ -36,9 +41,10 @@ description: 'Elissa Aron: Professional Los Angeles based actor and singer with 
     <div class="filmstrip-sides visible-xs visible-sm visible-md visible-lg"></div>
 
     <div class="filmstrip-holder2" id="norotate">
-        <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" />
+        <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple2.jpg" alt="Elissa Aron Purple Photo 2" /> -->
+        <img src="<%= @item[:level] %>images/banner-elissa-aron-short.jpg" alt="Elissa Aron Banner Image" />
+        <!-- <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" /> -->
         <!-- <img src="<%= @item[:level] %>images/elissa-aron-jacket1.jpg" alt="Elissa Aron Jacket Photo 1" /> -->
-        <img src="<%= @item[:level] %>images/elissa-aron-orange2.jpg" alt="Elissa Aron Orange Photo 2" />
         <img src="<%= @item[:level] %>images/elissa-aron-yellow1.jpg" alt="Elissa Aron Yellow Photo 1" />
         <img src="<%= @item[:level] %>images/elissa-aron-blue.jpg" alt="Elissa Aron Blue Photo" />
         <!-- <img src="<%= @item[:level] %>images/elissa-aron-purple3.jpg" alt="Elissa Aron Purple Photo 3" />

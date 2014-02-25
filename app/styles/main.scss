@@ -379,6 +379,14 @@ aside.filmstrip-holder, aside.filmstrip-holder2{
     max-width: 650px;
 }
 
+.photograph-small {
+    margin: 2px;
+    padding: 3px;
+    border: 1px solid darken($gray-lighter, 5%);
+    box-shadow: 2px 2px 5px $gray;
+    @include rotate(5deg);
+}
+
 .navbar-default .navbar-toggle {
     background-color: lighten(#E87767, 15%);
 }
@@ -447,6 +455,10 @@ aside.filmstrip-holder, aside.filmstrip-holder2{
 }
 .add-bottom-padding {
     padding-bottom: 20px;
+}
+
+.max-90 {
+  max-width: 90px;
 }
 
 // .navbar-fixed-top {
